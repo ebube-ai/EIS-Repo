@@ -1,0 +1,652 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.Navbar{
+    background-color:#964B00;
+    height: 80px;
+    width: 100%;
+    z-index: 1;
+}
+
+ul.Navlinks{
+    float: right;
+    margin-right: 25px;
+}
+
+ul.Navlinks li a{
+    color: white;
+    font-size: 22px;
+    font-family: serif;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 5px 0px;
+    position: relative;
+}
+
+label #open{
+    color: white;
+    font-size: 30px;
+    float: right;
+    margin-right: 40px;
+    line-height: 80px;
+    cursor: pointer;
+    display: none;
+}
+
+label #close{
+    color: white;
+    font-size: 30px;
+    float: right;
+    margin-right: 40px;
+    line-height: 80px;
+    cursor: pointer;
+    display: none;
+}
+
+nav.Navbar input#check{
+    display: none;
+}
+
+body .Navbar img{
+    width: 60px;
+    position: absolute;
+    top: 10px;
+    left: 3%;
+}
+
+nav.Navbar ul.Navlinks li{
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+    line-height: 70px;
+}
+
+html body div.bg{
+background-image: url(pexels-max-fischer-5212667.jpg);
+height: 700px;
+width: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+position: relative;
+z-index: -1;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.bg2{
+    height: 400px !important;
+}
+
+body div.bg h1{
+    color: white;
+    font-size:70px;
+}
+
+body div.bg p{
+    color: white;
+    font-size: 50px;
+}
+
+html body div.bg::after{
+position: absolute;
+content: "";
+top: 0;
+left: 0;
+background-color: rgba(0, 0, 0, 0.603);
+height: 700px;
+width: 100%;
+z-index: -1;
+}
+
+.bg2::after{
+    height: 400px !important;
+}
+
+/*this is the css code for the button*/
+body div.bg a{
+    font-size: 23px;
+    color: white;
+    background-color: #964B00;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 4px;
+}
+
+html body div.cardsection{
+display: grid;
+grid-template-columns:repeat(4, 1fr) ;
+gap: 10px;
+margin-left: 5rem;
+margin-right: 5rem;
+}
+
+body div.cardsection div.card{
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.805);
+}
+
+html body h2.cardheading{
+    color: #333;
+    margin-top: 3rem;
+    margin-right: 0rem;
+    margin-bottom: 1rem;
+    margin-left: 5rem;
+    font-size: 3rem;
+
+}
+
+div.cardsection div.card img{
+    width: 100%;
+    height: 250px;
+}
+
+div.cardsection div.card div.cardcontent{
+    padding: 15px;
+}
+
+div.card div.cardcontent p.cardtitle{
+    font-size: 25px;
+    color: #964B00;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div.card div.cardcontent p.carddescription{
+    color: #333;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+div.card div.cardcontent a{
+    font-size: 15px;
+    color: white;
+    background-color: #964B00;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+div.explore{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;   
+}
+
+div.explore div.write-up{
+    width: 600px;
+    padding: 4rem 4rem 2rem 0rem;
+
+}
+
+
+div.explore div.image{
+    width: 600px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    margin-left: 20px;
+    
+}
+
+div.explore div.write-up p.Title{
+font-size: 35px;
+margin-bottom: 19px;
+}
+
+div.explore div.write-up a{
+    background-color: #964B00;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    margin-top: 100px;
+    
+}
+
+div.explore div.write-up p.desc{
+    margin-bottom: 20px;
+}
+
+div.Facility h1{
+    text-align: center;
+    margin-top: 25px;
+}
+
+div.Facility div.Research a{
+    font-size: 23px;
+    color: #964B00;
+    background-color: white;
+    padding: 10px 15px;
+    border: 2px solid #964B00;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+div.Facility div.Research a:hover{
+    color: white;
+    background-color: #964B00;
+}
+
+div div.Research{
+display: flex;
+justify-content: center;
+width: 100%;
+margin-top: 25px;
+}
+
+
+div.Facility div.line{
+    height: 5px;
+    background-color: #964B00;
+    width: 200px;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+div.explore div.write-up div.line{
+    height: 5px;
+    width: 175px;
+    background-color: #964B00;
+    display: flex;
+    margin: none;
+    margin-top: 10px;
+    margin-bottom: 50px;
+} 
+
+div.impact h1{
+    font-size: 40px;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 12px;
+
+}
+
+div.impact div.line{
+      height: 5px;
+    background-color: #964B00;
+    width: 200px;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+div.impact div.Community {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+div.impact div.Community p{
+  text-align: center;
+  width: 850px;  
+}
+
+div.Communityimages{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 3.5rem 10rem;
+}
+
+div.Communityimages .Communityimage1{
+    grid-column: span 2;
+}
+
+div.Communityimages img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 17px;
+    gap: 12px;
+    transition: transform 0.5s ease;
+}
+
+div.Communityimages img:hover{
+ transform: scale(1.05);
+}
+div.Communityimages .Communityimage4{
+    grid-column: span 2;
+}
+
+div.gallery h1{
+display: flex;
+justify-content: center;
+width: 100%;
+margin-top: 25px;
+}
+
+div.gallery div.line{
+       height: 5px;
+    background-color: #964B00;
+    width: 138px;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 12px;
+}
+
+div.galleryimages{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+     padding: 3.5rem 10rem
+}
+
+div.galleryimages img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+footer{
+    display: flex;
+    flex: wrap;
+    justify-content: space-between;
+    background-color: #964B00;
+    padding: 1.5rem 3.5rem;
+    color: white;
+}
+
+
+body div#contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background-color: green;*/
+}
+
+div#contact div.contactform{
+    background-color: white;
+    width: 700px;
+    padding: 2rem;
+    margin: 5rem 0rem;
+    border: 2px solid #964B00;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+div div.contactform form input{
+    display: block;
+    width: 100%;
+    padding:0.5rem ;
+    margin: 0.5rem 0;
+    border-radius: 5px;
+}
+
+div div.contactform p{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+div.contactform form textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+div.contactform form input.Submitbtn{
+    background-color: #964B00;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+.space{
+    margin: 3.5rem;
+}
+
+body div#register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background-color: green;*/
+}
+
+div#register div.regform{
+    background-color: white;
+    width: 700px;
+    padding: 2rem;
+    margin: 5rem 0rem;
+    border: 2px solid #964B00;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+div div.regform form input{
+    display: block;
+    width: 100%;
+    padding:0.5rem ;
+    margin: 0.5rem 0;
+    border-radius: 5px;
+}
+
+div div.regform p{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+div.regform form textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+div.regform form input.Submitbtn{
+    background-color: #964B00;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+.space{
+    margin: 3.5rem;
+}
+
+/*resposiveness*/
+@media(max-width:768px){
+    label #open{
+        display: block;
+    }    
+
+    ul.Navlinks{
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        background-color: #7b3e00;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all 0.5s;
+    }
+
+    nav.Navbar ul.Navlinks li{
+        display: block !important;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    ul.Navlinks li a{
+        font-size: 20px;
+    }
+
+    nav.Navbar input#check:checked ~ ul{
+        left: 0;
+    }
+
+    nav.Navbar input#check:checked ~ label #open{
+        display: none;
+    }
+
+    nav.Navbar input#check:checked ~ label #close{
+        display: block;
+    }
+
+    body div.bg h1{
+        text-align: center;
+        margin: 0px 15px;
+        font-size: 50px;
+    }
+
+    
+    html body div.cardsection{
+        display: grid;
+        grid-template-columns:repeat(2, 1fr) ;
+        gap: 10px;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    html body h2.cardheading{
+        font-size: 2.5rem;
+        margin-left: 1.8rem;
+    }
+
+    div.impact div.Community p{
+        width: 90%;
+    }
+
+    div.Communityimages{
+        padding: 3.5rem 3.5rem;
+    }
+
+    div.galleryimages{
+        padding: 3.5rem 3.5rem;
+    }
+}
+
+@media(max-width:500px) {
+    html body h2.cardheading{
+        font-size: 2rem;
+    }
+    
+    html body div.cardsection{
+        display: grid;
+         grid-template-columns:repeat(1, 1fr)
+    }
+
+    div.explore div.write-up p.Title{
+        font-size: 35px;
+        margin-bottom: 19px;
+        margin-left: 2rem;
+    }
+
+    div.explore div.write-up div.line{
+        margin-left: 2rem;
+    }
+
+    div.explore div.write-up p.desc{
+        margin-left: 2rem;
+    }
+    div.explore div.write-up a{
+        margin-left: 2rem;
+    }
+
+    div.explore div.image{
+        width: 300px;
+        margin: 0px;
+    }
+
+    div.explore div.image img{
+        width: 100%;
+    }
+
+     div.Communityimages{
+        padding: 3.5rem 1rem;
+           grid-template-columns: repeat(1, 1fr);
+    }
+
+    div.galleryimages{
+        padding: 3.5rem 1rem;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    footer{
+        padding: 1.5rem 1rem;
+    }
+
+    footer p{
+        font-size: 0.75rem;
+    }
+
+    div#contact div.contactform{
+        width: 400px;
+    }
+
+    div.bg2 p{
+        font-size: 30px !important;
+    }
+
+   div#register div.regform{
+        width: 400px;
+   
+    }
+
+    html body div.bg{
+        height: 400px;
+    }
+
+    html body div.bg::after{
+        height: 400px;
+    }
+
+    body div.impact h1{
+        font-size: 35px;
+    }
+}
+
+@media(max-width:380px){
+    div#register div.regform{
+        width: 300px;
+    }
+    
+    body div.bg h1{
+        font-size: 35px;
+    }
+
+    body div.bg p{
+        font-size: 20px;
+    }
+
+    div#contact div.contactform{
+        width: 280px;
+    }
+
+    div div.contactform p{
+        font-size: 2rem;
+    }
+
+    footer{
+        padding: 1.5rem 0.5rem;
+    }
+
+    div div.regform p{
+        font-size: 2rem ;
+    }
+}
+
